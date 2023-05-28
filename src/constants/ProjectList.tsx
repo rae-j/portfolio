@@ -144,19 +144,19 @@ export const PROJECT_LIST: IProject[] = [
     tags: ["Concrete5", "CMS", "Content Management", "Project Management"]
   },
   {
-    title: "BEN TECH CHEMICAL",
-    description:
-      "BEN TECH CHEMICAL CO. LTD., aim to become a global leader in textile chemicals industry with the best quality products, outstanding service and highest safety.",
-    src: "/static/img/bentech.png",
-    href: "https://www.bentechchemical.com/",
-    tags: ["WordPress", "Content Management", "Project Management"]
-  },
-  {
     title: "Adelphi Hospitality",
     description:
       "Adelphi Hospitality Group provides all the amenities you could possibly need for a comfortable home away from home. Whether your stay is short or long, we guarantee it will be a memorable one. Our team member are here to cater to all your needs. At Adelphi, customer satisfaction is our priority.",
     src: "/static/img/adelphi.png",
     href: "https://www.adelphihospitality.com/",
     tags: ["Concrete5", "CMS", "Content Management"]
+  },
+  {
+    title: "BEN TECH CHEMICAL",
+    description:
+      "BEN TECH CHEMICAL CO. LTD., aim to become a global leader in textile chemicals industry with the best quality products, outstanding service and highest safety.",
+    src: "/static/img/bentech.png",
+    href: "https://www.bentechchemical.com/",
+    tags: ["WordPress", "Content Management", "Project Management"]
   }
 ]
