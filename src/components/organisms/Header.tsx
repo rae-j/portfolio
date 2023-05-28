@@ -59,15 +59,15 @@ const Header = () => {
       link: "/portfolio"
     },
     {
-      title: "LinkedIn",
-      link: "https://www.linkedin.com/in/rae-jitpong/"
+      title: "Email",
+      link: "mailto:rae.jitpong@gmail.com"
     }
   ]
 
   const NAV_COL_TWO: INav[] = [
     {
-      title: "Email",
-      link: "mailto:rae.jitpong@gmail.com"
+      title: "LinkedIn",
+      link: "https://www.linkedin.com/in/rae-jitpong/"
     },
     {
       title: "Github",
@@ -112,12 +112,7 @@ const Header = () => {
               className="group flex translate-x-0 items-center overflow-hidden transition-all duration-300 hover:translate-x-[10px]"
             >
               <div className="nav-link-circle mr-[5px] h-1.5 w-1.5 rounded-[100%] bg-[#181818] opacity-0 transition-all duration-300  group-hover:opacity-100"></div>
-              <a
-                href={n.link}
-                target="_blank"
-              >
-                {n.title}
-              </a>
+              <Link href={n.link}>{n.title}</Link>
             </div>
           ))}
         </div>
