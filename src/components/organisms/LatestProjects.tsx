@@ -33,6 +33,7 @@ const LatestProjects = ({ projects, viewMore, className, ...props }: IProp) => {
                 title={p.title}
                 src={p.src}
                 tags={p.tags}
+                href={p.href}
               />
             </div>
           ))}
