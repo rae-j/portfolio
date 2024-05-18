@@ -32,7 +32,7 @@ function Home() {
     >
       <Introduction />
 
-      <ImageParallax src="/assets/images/etc/image-2.jpeg" />
+      <ImageParallax src="/assets/images/etc/image-3.jpeg" />
 
       <RevealWrapper
         origin={origin}

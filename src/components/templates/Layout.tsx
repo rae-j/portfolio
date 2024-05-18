@@ -2,6 +2,7 @@ import PagePath from "@components/atoms/PagePath"
 import Footer from "@components/organisms/Footer"
 import Header from "@components/organisms/Header"
 import PageEntering from "@components/organisms/PageEntering"
+import PageOverlay from "@components/organisms/PageOverlay"
 import { RevealWrapper } from "next-reveal"
 import { useRouter } from "next/router"
 import React, { useEffect, useState } from "react"
@@ -35,6 +36,8 @@ export default function Layout({
       className={`bg-background-white ${className}`}
       {...props}
     >
+      <PageOverlay className="lg:hidden" />
+
       <PageEntering />
 
       <RevealWrapper

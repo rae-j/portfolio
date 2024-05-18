@@ -71,7 +71,7 @@ const Header = () => {
     },
     {
       title: "Github",
-      link: "https://github.com/raedontbyte"
+      link: "https://github.com/rae-j"
     }
   ]
 

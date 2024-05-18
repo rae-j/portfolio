@@ -18,7 +18,7 @@ const LatestProjects = ({ projects, viewMore, className, ...props }: IProp) => {
     >
       <SectionTitle
         title="Latest Projects"
-        link="/projects"
+        link="/portfolio"
       />
 
       <div className="project-list">

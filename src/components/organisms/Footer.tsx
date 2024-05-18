@@ -63,7 +63,7 @@ const Footer = ({ ...props }: IFooter) => {
                 <FontAwesomeIcon icon={faPaperPlane} />
               </Link>
               <Link
-                href="https://github.com/raedontbyte"
+                href="https://github.com/rae-j"
                 target="_blank"
                 className="border-light flex h-[2.75rem] w-[2.75rem] items-center justify-center rounded-full border opacity-50 transition-all duration-300 hover:scale-90 hover:opacity-100"
               >

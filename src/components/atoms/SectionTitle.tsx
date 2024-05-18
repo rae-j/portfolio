@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import { useRouter } from "next/router"
 
 interface IProp {
   title: string
@@ -8,12 +9,14 @@ interface IProp {
 }
 
 const SectionTitle = ({ title, link, className }: IProp) => {
+  const { pathname } = useRouter()
+
   return (
     <div
       className={`mb-20 flex flex-col items-start justify-between sm:flex-row sm:items-center ${className}`}
     >
       <h2 className="font-inter-medium text-4xl">{title}</h2>
-      {link && (
+      {link && !pathname?.includes("/portfolio") && (
         <Link
           href={link}
           className="group mt-2 sm:mt-0"
